@@ -95,3 +95,17 @@ In the STA Console, add FortiGate application by following these steps:
   - Browse for or drag the logo icon downloaded above and click :guilabel:`Select`
 
 4. Clcik :guilabel:`Add` to add the FortiGate Application
+
+5. Switch to **Manual Configuration**
+
+.. thumbnail:: _images/manual.png
+
+  - Download STA Tenant Certificate by clicking :guilabel:`Download X.509 certificate`
+
+  .. thumbnail:: _images/certificate.png
+
+  - Note both STA Tenant **Issuer/Entity ID** and STA **Single Sign-On Service** URL
+
+  .. thumbnail:: _images/entity.png
+
+6. Click :guilabel:`Next Step`
