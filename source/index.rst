@@ -225,4 +225,10 @@ _`Add a SAML Identity Provider to FortiGate`
 
    config user saml
 
+.. code-block:: cli
+
    edit "safenet-sslvpn"
+
+.. code-block::
+
+   set entity-id "https://URL:PORT/remote/saml/metadata/"
