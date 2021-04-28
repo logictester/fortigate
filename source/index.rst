@@ -114,7 +114,7 @@ In the STA Console, add FortiGate application by following these steps:
 
 .. thumbnail:: _images/manual2.png
 
-8. In **Account Details** provide the required details using the following values (replace **URL:PORT** with your own values depending on your FortGate SSL VPN configuration and port)
+8. Under **Account Details** provide the required details using the following values (replace **URL:PORT** with your own values depending on your FortGate SSL VPN configuration and port)
 
 +--------------------------------+------------------------------------------+
 | **Setting**                    | **Value**                                |
@@ -138,14 +138,28 @@ In the STA Console, add FortiGate application by following these steps:
 
 .. thumbnail:: _images/account.png
 
-9. In **User Login ID Mapping**, select **SAS User ID**
+9. Under **User Login ID Mapping**, select **SAS User ID**
 
 .. thumbnail:: _images/nameid.png
 
-10. In **Return Attributes**, create an attribute by clicking :guilabel:`Add Atrribute` with *Return Attribute* **username** and *User Attribute* **SAS User ID**
+10. Under **Return Attributes**, create an attribute by clicking :guilabel:`Add Atrribute` with *Return Attribute* **username** and *User Attribute* **SAS User ID**
 
 .. thumbnail:: _images/attribute.png
 
-11. In **User Portal Settings**, change to *Federation Mode* to **SP Initiated** and enter the URL of your FortiGate SSL VPN portal and port number using the colon :code:`:` delimiter in *Service Login URL*
+11. Under **User Portal Settings**, change the *Federation Mode* to **SP Initiated** and enter the URL of your FortiGate SSL VPN portal and port number using the colon :code:`:` delimiter in *Service Login URL*
 
 .. thumbnail:: _images/user_portal.png
+
+12. Under **Advanced Settings**, change the **Name ID Format** to **Unspecified**
+
+.. thumbnail:: _images/nameid_format.png
+
+13. Under Advanced Settings, change the following settings:
+
+-	Skip request signature validation
+-	Assertion not encrypted
+-	Sign assertion and response
+-	Enforce Post Binding
+-	Back logout channel
+
+.. thumbnail:: _images/advanced.png
