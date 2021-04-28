@@ -217,7 +217,7 @@ _`Add a SAML Identity Provider to FortiGate`
 
 .. important:: After import, note the **Name** of the imported remote certificate. This value will be required in the next step. *Example:* **Remote_Cert_1**
 
-.. note:: Next steps are **CLI Only**, connect to your firewall using **SSH**
+.. note:: Next steps are **CLI Only**, connect to your firewall using **SSH** (replace **URL:PORT** with your own values depending on your FortGate SSL VPN configuration and port)
 
 2. Create the SafeNet SAML IdP with the values used in :ref:`this <SAML>` step
 
@@ -225,10 +225,22 @@ _`Add a SAML Identity Provider to FortiGate`
 
    config user saml
 
-.. code-block:: cli
+.. code-block::
 
    edit "safenet-sslvpn"
 
 .. code-block::
 
    set entity-id "https://URL:PORT/remote/saml/metadata/"
+
+.. code-block::
+
+   set single-sign-on-url "https://URL:PORT/remote/saml/login/"
+
+.. code-block::
+
+   set single-logout-url "https://URL:PORT/remote/saml/logout/"
+
+.. code-block::
+
+   set idp-entity-id "<STA Tenant Issuer/Entity ID>"
