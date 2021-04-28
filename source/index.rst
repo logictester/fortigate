@@ -42,7 +42,7 @@ The configuration requires the following steps:
   **In SafeNet Trusted Access**
 
   - Create FortiGate Application in SafeNet Trusted Access
-  - Adjust the Authentication Policies
+  - `Configure STA Authentication Policy`_
 
   **In FortGate**
 
@@ -171,5 +171,30 @@ In the STA Console, add FortiGate application by following these steps:
 .. thumbnail:: _images/assign.png
 
 16. Click :guilabel:`Save Configuration`
+
+_`Configure STA Authentication Policy`
+**************************************
+
+In the STA Console, create a new Access Policy for FortiGate application by following these steps:
+
+  #. Go to the :guilabel:`Policies` tab
+
+  #. Click :guilabel:`+` to add a new Policy
+
+  #. Name the new Policy, *for example FortiGate VPN*
+
+  - **Polcy Scope**
+
+    #. Under **Users**, click :guilabel:`All Users` to apply to all users or :guilabel:`Any of these User Groups:` to apply to specifc User Groups
+
+    #. Under **Applications**, click :guilabel:`Any of these Applications`, click in the field and select **FortiGate** application
+
+  - **Default Requirements**
+
+    #. Select the desired authentication method *for example* :guilabel:`Password` and :guilabel:`Every access attempt` and :guilabel:`Token Based Authentication (OTP)` and :guilabel:`Every access attempt`
+
+  - Click :guilabel:`Save` to save the new Policy
+
+.. thumbnail:: _images/policy.png
 
 The SafeNet Trusted Access configuration of the FortiGate application is complete
