@@ -142,6 +142,10 @@ In the STA Console, add FortiGate application by following these steps:
 
 .. thumbnail:: _images/nameid.png
 
-10. In **Return Attribute**, create an attribute by clicking :guilabel:`Add Atrribute` with *Return Attribute* **username** and *User Attribute* **SAS User ID**
+10. In **Return Attributes**, create an attribute by clicking :guilabel:`Add Atrribute` with *Return Attribute* **username** and *User Attribute* **SAS User ID**
 
 .. thumbnail:: _images/attribute.png
+
+11. In **User Portal Settings**, change to *Federation Mode* to **SP Initiated** and enter the URL of your FortiGate SSL VPN portal and port number using the colon :code:`:` delimiter in *Service Login URL*
+
+.. thumbnail:: _images/user_portal.png
