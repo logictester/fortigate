@@ -154,12 +154,12 @@ In the STA Console, add FortiGate application by following these steps:
 
 .. thumbnail:: _images/nameid_format.png
 
-13. Under Advanced Settings, change the following settings:
+13. Under Advanced Settings, set the following settings:
 
--	Skip request signature validation
--	Assertion not encrypted
--	Sign assertion and response
--	Enforce Post Binding
--	Back logout channel
+-	**Skip request signature validation**
+-	**Assertion not encrypted**
+-	**Sign assertion and response**
+-	**Enforce Post Binding**
+-	**Back logout channel**
 
 .. thumbnail:: _images/advanced.png
