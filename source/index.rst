@@ -17,7 +17,7 @@ FortiGate VPN and FortiClient with SafeNet Trusted Access using SAML 2.0
 Overview
 ========
 
-This guide shows how to implement adaptive authentication with strong contextual security policies to FortiGate SSL VPN and the FortiClient using SAML federation with SafeNet Trusted Access.
+This guide shows how to implement adaptive authentication with strong contextual security policies to FortiGate SSL VPN and the FortiClient using SAML federation with SafeNet Trusted Access
 
 
 Prerequisites
@@ -78,11 +78,11 @@ Add FortiGate Application in SafeNet Trusted Access
 
 In the STA Console, add FortiGate application by following these steps:
 
-1. In **Applications** tab, click on the :guilabel:`+` button and search for **Generic Template**.
+1. In **Applications** tab, click on the :guilabel:`+` button and search for **Generic Template**
 
 .. thumbnail:: _images/applications.png
 
-2. Name the application and choose **SAML** for the **Integration Protocol**.
+2. Name the application and choose **SAML** for the **Integration Protocol**
 
 .. thumbnail:: _images/application.png
 
@@ -163,3 +163,13 @@ In the STA Console, add FortiGate application by following these steps:
 -	**Back logout channel**
 
 .. thumbnail:: _images/advanced.png
+
+14. Click :guilabel:`Save Configuration`
+
+15. Assign the FortiGate application to your target users by clicking on :guilabel:`Assign` and selecting **All Users** or **Users from any of these user groups:**
+
+.. thumbnail:: _images/assign.png
+
+16. Click :guilabel:`Save Configuration`
+
+The SafeNet Trusted Access configuration of the FortiGate application is complete
