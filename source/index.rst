@@ -96,6 +96,8 @@ In the STA Console, add FortiGate application by following these steps:
 
 4. Clcik :guilabel:`Add` to add the FortiGate Application
 
+.. _SAML:
+
 5. Switch to **Manual Configuration**
 
 .. thumbnail:: _images/manual.png
@@ -214,3 +216,7 @@ _`Add a SAML Identity Provider to FortiGate`
 .. thumbnail:: _images/fg_cert.png
 
 .. important:: After import, note the **Name** of the imported remote certificate. This value will be required in the next step. *Example:* **Remote_Cert_1**
+
+.. note:: Next steps are **CLI Only**, connect to your firewall using **SSH**
+
+2. Create the SafeNet SAML IdP with the values used in :ref:`this <SAML>`step
