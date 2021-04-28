@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-======================================================================
-FortiGate VPN & FortiClient with SafeNet Trusted Access using SAML 2.0
-======================================================================
+========================================================================
+FortiGate VPN and FortiClient with SafeNet Trusted Access using SAML 2.0
+========================================================================
 
 .. toctree::
    :maxdepth: 3
@@ -86,4 +86,8 @@ In the STA Console, add FortiGate application by following these steps:
 
 .. thumbnail:: _images/application.png
 
-3. *Optional* - Change the Application Logo by clicking on the default icon. You can download FortiGate logo icon :download:`here <_downloads/logo.png>`
+3. *Optional* - Change the Application Logo by clicking on the default icon. You can download FortiGate logo icon :download:`here <_downloads/fg_logo.png>`
+
+.. thumbnail:: _images/add_icon.png
+
+.. thumbnail:: _images/icon.png
