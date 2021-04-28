@@ -53,8 +53,8 @@ The configuration requires the following steps:
 SafeNet Trusted Access Configuration
 ====================================
 
-Create FortiGate Application in SafeNet Trusted Access
-******************************************************
+Add FortiGate Application in SafeNet Trusted Access
+***************************************************
 
 .. note:: Open SafeNet Trusted Access Console (you can use the following direct links based on your availability zone, opens in a new tab)
 
@@ -76,7 +76,7 @@ Create FortiGate Application in SafeNet Trusted Access
 
               <a href="https://sta.safenetid.com" target="_blank">Classic Zone SafeNet Trusted Access Console</a>
 
-In the STA Console, modify the Salesforce application by following these steps:
+In the STA Console, add FortiGate application by following these steps:
 
 1. In **Applications** tab, click on the :guilabel:`+` button and search for **Generic Template**.
 
@@ -86,4 +86,4 @@ In the STA Console, modify the Salesforce application by following these steps:
 
 .. thumbnail:: _images/application.png
 
-3. *Optional* - Change the Application Logo by clicking on the default icon. You can download FortiGate logo icon `here <_downloads/logo.png`_
+3. *Optional* - Change the Application Logo by clicking on the default icon. You can download FortiGate logo icon :download:`here <_downloads/logo.png`_
