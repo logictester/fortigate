@@ -96,8 +96,6 @@ In the STA Console, add FortiGate application by following these steps:
 
 4. Clcik :guilabel:`Add` to add the FortiGate Application
 
-.. _SAML:
-
 5. Switch to **Manual Configuration**
 
 .. thumbnail:: _images/manual.png
@@ -105,6 +103,8 @@ In the STA Console, add FortiGate application by following these steps:
 - Download STA Tenant Certificate by clicking :guilabel:`Download X.509 certificate`
 
 .. thumbnail:: _images/certificate.png
+
+.. _SAML:
 
 - Note both STA Tenant **Issuer/Entity ID** and STA **Single Sign-On Service** URL
 
@@ -220,3 +220,9 @@ _`Add a SAML Identity Provider to FortiGate`
 .. note:: Next steps are **CLI Only**, connect to your firewall using **SSH**
 
 2. Create the SafeNet SAML IdP with the values used in :ref:`this <SAML>` step
+
+.. code-block::
+
+   config user saml
+
+   edit "safenet-sslvpn"
