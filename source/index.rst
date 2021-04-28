@@ -109,3 +109,31 @@ In the STA Console, add FortiGate application by following these steps:
 .. thumbnail:: _images/entity.png
 
 6. Click :guilabel:`Next Step`
+
+7. Switch to **Manual Configuration**
+
+.. thumbnail:: _images/manual2.png
+
+8. In **Account Details** provide the required details using the following values (replace **URL:PORT** with your own values depending on your FortGate SSL VPN configuration and port)
+
++--------------------------------+------------------------------------------+
+| **Setting**                    | **Value**                                |
++--------------------------------+------------------------------------------+
+| Entity ID                      | ::                                       |
+|                                |                                          |
+|                                |   https://URL:PORT/remote/saml/metadata/ |
++--------------------------------+------------------------------------------+
+| Logout URL (Post Binding)      | ::                                       |
+|                                |                                          |
+|                                |   https://URL:PORT/remote/saml/logout/   |
++--------------------------------+------------------------------------------+
+| Logout URL (Redirect Binding)  | ::                                       |
+|                                |                                          |
+|                                |   https://URL:PORT/remote/saml/logout/   |
++--------------------------------+------------------------------------------+
+| Assertion Consumer Service URL | ::                                       |
+|                                |                                          |
+|                                |   https://URL:PORT/remote/saml/login     |
++--------------------------------+------------------------------------------+
+
+.. thumbnail:: _images/account.png
