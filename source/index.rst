@@ -219,4 +219,4 @@ _`Add a SAML Identity Provider to FortiGate`
 
 .. note:: Next steps are **CLI Only**, connect to your firewall using **SSH**
 
-2. Create the SafeNet SAML IdP with the values used in :ref:`this <SAML>`step
+2. Create the SafeNet SAML IdP with the values used in :ref:`this <SAML>` step
