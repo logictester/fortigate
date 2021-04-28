@@ -213,4 +213,4 @@ _`Add a SAML Identity Provider to FortiGate`
 
 .. thumbnail:: _images/fg_cert.png
 
-.. important:: After import, note the **Name** of the imported remote certificate. This value will be required in the next step *Example* **Remote_Cert_1**
+.. important:: After import, note the **Name** of the imported remote certificate. This value will be required in the next step. *Example:* **Remote_Cert_1**
