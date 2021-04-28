@@ -19,7 +19,7 @@
 
 project = 'SafeNet Trusted Access'
 copyright = '2021, Alex Basin'
-author = 'Alex Basin'
+author = 'Cina Shaykhian and Alex Basin'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'

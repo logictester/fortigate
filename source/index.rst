@@ -206,3 +206,9 @@ Complete these steps on your FortiGate firewall in order to set **SafeNet Truste
 
 _`Add a SAML Identity Provider to FortiGate`
 ********************************************
+
+1. Upload your STA Tenant Certificate obtained from past step 5 as a remote certificate:
+
+- :guilabel:`System` --> :guilabel:`Certificates` --> :guilabel:`Import`
+
+.. thumbnail:: _images/fg_cert.png 
