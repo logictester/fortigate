@@ -91,3 +91,7 @@ In the STA Console, add FortiGate application by following these steps:
 .. thumbnail:: _images/add_icon.png
 
 .. thumbnail:: _images/icon.png
+
+  - Browse for or drag the logo icon downloaded above and click :guilabel:`Select`
+
+4. Clcik :guilabel:`Add` to add the FortiGate Application
