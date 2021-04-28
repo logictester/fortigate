@@ -41,20 +41,20 @@ The configuration requires the following steps:
 
   **In SafeNet Trusted Access**
 
-  - Create FortiGate Application in SafeNet Trusted Access
+  - `Create FortiGate Application in SafeNet Trusted Access`_
   - `Configure STA Authentication Policy`_
 
   **In FortGate**
 
-  - Add a SAML Identity Provider to FortiGate
+  - `Add a SAML Identity Provider to FortiGate`_
   - Configure FortiClient VPN
 
 
 SafeNet Trusted Access Configuration
 ====================================
 
-Add FortiGate Application in SafeNet Trusted Access
-***************************************************
+_`Create FortiGate Application in SafeNet Trusted Access`
+*********************************************************
 
 .. note:: Open SafeNet Trusted Access Console (you can use the following direct links based on your availability zone, opens in a new tab)
 
@@ -198,3 +198,11 @@ In the STA Console, create a new Access Policy for FortiGate application by foll
 .. thumbnail:: _images/policy.png
 
 The SafeNet Trusted Access configuration of the FortiGate application is complete
+
+FortiGate Configuration
+=======================
+
+Complete these steps on your FortiGate firewall in order to set **SafeNet Trusted Access** as the Identity Provider
+
+_`Add a SAML Identity Provider to FortiGate`
+********************************************
