@@ -358,4 +358,22 @@ _`FortiClient VPN Configuration`
 
 - Select **Enable Single Sign On (SSO) for VPN Tunnel**
 
-.. thumbnail:: _images/fg_client.png 
+.. thumbnail:: _images/fg_client.png
+
+3. Click :guilabel:`Save`
+
+The FortiClient configuration is complete
+
+Test the solution
+=================
+
+Using FortiClient
+*****************
+
+1. Launch the **FortiClient** on the client machine
+
+2. In the **Remote Access** pane, select the VPN connection created in the previous step
+
+3. Click on :guilabel:`SAML Login` to initiate the connection
+
+.. image:: _images/fg_login.gif
