@@ -47,7 +47,7 @@ The configuration requires the following steps:
   **In FortGate**
 
   - `Add a SAML Identity Provider to FortiGate`_
-  - Configure FortiClient VPN
+  - `FortiClient VPN Configuration`_
 
 
 SafeNet Trusted Access Configuration
@@ -293,7 +293,7 @@ _`Add a SAML Identity Provider to FortiGate`
 
    end
 
-4. Complete the **SSL VPN** configuration to match to your current environment
+4. Complete the **SSL VPN** configuration to match your current environment
 
 - **SSL-VPN Settings**
 
@@ -315,3 +315,47 @@ _`Add a SAML Identity Provider to FortiGate`
        next
    end
   end
+
+- **Firewall Policy**
+
+.. code-block::
+
+  config firewall policy
+   edit 101
+       set name "SAML_SSLVPN"
+       set srcintf "ssl.root"
+       set dstintf "inside"
+       set srcaddr "all"
+       set dstaddr "corpnet"
+       set action accept
+       set schedule "always"
+       set service "ALL"
+       set groups "saml_safenet"
+       set nat enable
+   next
+  end
+
+- **Increase Login Timeout**
+
+.. code-block::
+
+  config system global
+   set remoteauthtimeout 120
+  end
+
+_`FortiClient VPN Configuration`
+********************************
+
+1. Launch the **FortiClient** (version 6.4.2 or above) on the client machine
+
+2. Add a new connection
+
+- Enter a **Connection Name** and **Description**
+
+- Enter your **SSL VPN URL** in **Remote Gateway**
+
+- *If required* - Select **Customize Port** and enter your custom port
+
+- Select **Enable Single Sign On (SSO) for VPN Tunnel**
+
+.. thumbnail:: _images/fg_client.png 
