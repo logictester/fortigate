@@ -195,7 +195,7 @@ In the STA Console, create a new Access Policy for FortiGate application by foll
 
     #. Select the desired authentication method *for example* :guilabel:`Password` and :guilabel:`Every access attempt` and :guilabel:`Token Based Authentication (OTP)` and :guilabel:`Every access attempt`
 
-  #. Click :guilabel:`Save` to save the new Policy
+  4. Click :guilabel:`Save` to save the new Policy
 
 .. thumbnail:: _images/policy.png
 
