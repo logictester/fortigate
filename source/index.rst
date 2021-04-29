@@ -244,3 +244,74 @@ _`Add a SAML Identity Provider to FortiGate`
 .. code-block::
 
    set idp-entity-id "<STA Tenant Issuer/Entity ID>"
+
+.. code-block::
+
+   set idp-single-sign-on-url "<STA Single Sign-On Service>"
+
+.. code-block::
+
+   set idp-single-logout-url "<STA Single Sign-On Service>"
+
+.. code-block::
+
+   set idp-cert "REMOTE_Cert_1"
+
+.. code-block::
+
+   set user-name "username"
+
+.. code-block::
+
+   next
+
+.. code-block::
+
+   end
+
+.. note:: The following steps can be completed in the FortiGate management console (in this guide we use CLI). These settings will require adjustments. Consult with your FortiGate team as required
+
+3. Create a **user group** and set the member with the above saml user (*"safenet-sslvpn"*)
+
+.. code-block::
+
+   config user group
+
+.. code-block::
+
+   edit "saml_safenet"
+
+.. code-block::
+
+   set member "safenet-sslvpn"
+
+.. code-block::
+
+   next
+
+.. code-block::
+
+   end
+
+4. Complete the **SSL VPN** configuration to match to your current environment
+
+- **SSL-VPN Settings**
+
+.. code-block::
+
+  config vpn ssl settings
+   set servercert "Fortinet_Factory"
+   set tunnel-ip-pools "SSLVPN_TUNNEL_ADDR1"
+   set tunnel-ipv6-pools "SSLVPN_TUNNEL_IPv6_ADDR1"
+   set port 10443
+   set source-interface "inside"
+   set source-address "all"
+   set source-address6 "all"
+   set default-portal "full-access"
+   config authentication-rule
+       edit 1
+           set groups "saml_safenet"
+           set portal "full-access"
+       next
+   end
+  end
