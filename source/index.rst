@@ -377,3 +377,16 @@ Using FortiClient
 3. Click on :guilabel:`SAML Login` to initiate the connection
 
 .. image:: _images/fg_login.gif
+
+Using SafeNet Trusted Access User Portal
+****************************************
+
+1. Navigate and login to the **SafeNet Trusted Access User Portal**
+
+2. Click on the **FortiGate** Application
+
+3. You are redirected to the FortiGate SSL VPN Web Portal
+
+4. Click :guilabel:`Single Sign-On` to login
+
+.. image:: _images/fg_web_login.gif
