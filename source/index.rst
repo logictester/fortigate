@@ -389,4 +389,6 @@ Using SafeNet Trusted Access User Portal
 
 4. Click :guilabel:`Single Sign-On` to login
 
+5. Provide any additional credentials if required by the Authentication Policy
+
 .. image:: _images/fg_web_login.gif
