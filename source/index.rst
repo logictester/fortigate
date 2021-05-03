@@ -392,10 +392,6 @@ Using SafeNet Trusted Access User Portal
 
 2. Click on the **FortiGate** Application
 
-3. You are redirected to the FortiGate SSL VPN Web Portal
-
-4. Click :guilabel:`Single Sign-On` to login
-
-5. Provide any additional credentials if required by the Authentication Policy
+3. You are redirected and logged in to the FortiGate SSL VPN Web Portal
 
 .. image:: _images/fg_web_login.gif
