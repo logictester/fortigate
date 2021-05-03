@@ -152,7 +152,7 @@ In the STA Console, add FortiGate application by following these steps:
 
 11. Under **User Portal Settings**, change the *Federation Mode* to **SP Initiated** and enter the URL of your FortiGate SSL VPN portal and port number using the colon :code:`:` delimiter in *Service Login URL*
 
-.. important:: For SSO to work correctly when using the STA User Portal (IDP Initiated SSO) the URL in this field has to be in the following format: **https://URL:PORT/remote/saml/start?realm=**, make sure to add **/remote/saml/start?realm=**
+.. important:: For SSO to work correctly when using the STA User Portal (IDP Initiated SSO) the URL in *Service Login URL* has to be in the following format: **https://URL:PORT/remote/saml/start?realm=**
 
 .. thumbnail:: _images/user_portal.png
 
