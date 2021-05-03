@@ -215,12 +215,12 @@ _`Add a SAML Identity Provider to FortiGate`
 
 - :menuselection:`System --> Certificates --> Import`
 
-.. important:: In the "Import" menu, slect **Remote Certificate**. Click :guilabel:`Upload` and select the STA Tenant certificate downloaded :ref:`here <Cert>`
+.. note:: In the "Import" menu, slect **Remote Certificate**. Click :guilabel:`Upload` and select the STA Tenant certificate downloaded :ref:`here <Cert>`
 
 
 .. thumbnail:: _images/fg_cert.png
 
-.. important:: After import, note the **Name** of the imported remote certificate. This value will be required in the next step. *Example:* **Remote_Cert_1**
+.. important:: After import, note the **Name** of the imported remote certificate. This value will be required in the next step. *Example:* **REMOTE_Cert_1**
 
 .. note:: Next steps are **CLI Only**, connect to your firewall using **SSH**
 
