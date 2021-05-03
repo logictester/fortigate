@@ -100,6 +100,8 @@ In the STA Console, add FortiGate application by following these steps:
 
 .. thumbnail:: _images/manual.png
 
+.. _Cert:
+
 - Download STA Tenant Certificate by clicking :guilabel:`Download X.509 certificate`
 
 .. thumbnail:: _images/certificate.png
@@ -212,6 +214,9 @@ _`Add a SAML Identity Provider to FortiGate`
 1. Upload your STA Tenant Certificate obtained from past step 5 as a remote certificate:
 
 - :menuselection:`System --> Certificates --> Import`
+
+.. important:: In the "Import" menu, slect **Remote Certificate**. Click :guilabel:`Upload` and select the STA Tenant certificate downloaded :ref:`here <Cert>`
+
 
 .. thumbnail:: _images/fg_cert.png
 
