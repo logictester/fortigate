@@ -120,7 +120,7 @@ In the STA Console, add FortiGate application by following these steps:
 
 8. Under **Account Details** provide the required details using the following values (replace **URL:PORT** with your own values depending on your FortGate SSL VPN configuration and port)
 
-.. important:: FortiGate Logout uses **Redirect Binding**, leave **Post Binding** empty 
+.. important:: FortiGate Logout uses **Redirect Binding**, leave **Logout URL (Post Binding)** empty
 
 +--------------------------------+------------------------------------------+
 | **Setting**                    | **Value**                                |
@@ -129,9 +129,9 @@ In the STA Console, add FortiGate application by following these steps:
 |                                |                                          |
 |                                |   https://URL:PORT/remote/saml/metadata/ |
 +--------------------------------+------------------------------------------+
-| Logout URL (Post Binding)      |                                          |
-|                                |   **Leave Empty**                        |
-|                                |                                          |
+| Logout URL (Post Binding)      ||                                         |
+|                                ||  **Empty**                              |
+|                                ||                                         |
 +--------------------------------+------------------------------------------+
 | Logout URL (Redirect Binding)  | ::                                       |
 |                                |                                          |
