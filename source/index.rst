@@ -131,7 +131,7 @@ In the STA Console, add FortiGate application by following these steps:
 +--------------------------------+------------------------------------------+
 | Logout URL (Post Binding)      ||                                         |
 |                                ||  **Empty**                              |
-|                                ||                                         |
+|                                |                                          |
 +--------------------------------+------------------------------------------+
 | Logout URL (Redirect Binding)  | ::                                       |
 |                                |                                          |
