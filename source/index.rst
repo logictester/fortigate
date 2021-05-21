@@ -25,7 +25,7 @@ Prerequisites
 
   - FortiOS 6.4.4.1803 and above
   - FortiClient 6.4.2.1580 and above
-  - A user with a SafeNet Trusted Access authenticator is enrolled
+  - A user with a SafeNet Trusted Access authenticator enrolled
   - Users can authenticate using SafeNet Trusted Access
 
 
